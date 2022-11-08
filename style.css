@@ -4,7 +4,12 @@
 }
 body{
     font-family: sans-serif;
-    width: 1400px;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 h1, h2, h3{
     color: #1E0E62;
@@ -21,7 +26,7 @@ p{
 /* HEADER */
 
 header{
-    border: solid 1px black;
+    /* border: solid 1px black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +42,7 @@ header a{
 /* SECTION UNO */
 
 .uno{
-    border: solid 1px black;
+    /* border: solid 1px black; */
     display: flex;
     padding: 50px 100px 10px;
     /* margin-bottom: 100px; */
@@ -60,7 +65,7 @@ header a{
 /* SECTION DOS */
 
 .dos{
-    border: solid 1px black;
+    /* border: solid 1px black; */
     padding-top: 100px;
     background: #F1F1F1;
 }
@@ -99,7 +104,7 @@ header a{
 /* SECTION TRES */
 
 .tres{
-    border: solid 1px black;
+    /* border: solid 1px black; */
     padding: 100px 100px;
 }
 .exp{
@@ -150,7 +155,7 @@ header a{
 /* PIE DE PAGINA */
 
 footer{
-    border: solid 1px black;
+    /* border: solid 1px black; */
     display: flex;
     align-items: center;
     flex-direction: column;
